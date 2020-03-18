@@ -1,6 +1,3 @@
-import sympy
-
-
 def ej1(n):
     if n == 1:
         return 1
@@ -38,6 +35,22 @@ def ej4(n):
         return 1 + ej4_1(n - 2)
 
 
+def f(x):
+    return x**2 - 16
+
+def df(x):
+    return 2*x
+
+def ej5(f, df, a):
+    if(f(a) > 0.0001):
+        return ej5(f, df, next_x(f, df, a))
+    else:
+        return a
+
+def next_x(f, df, x_n):
+    return x_n - (f(x_n) / df(x_n))
+
+
 def ej6(n):
     # TODO
     return 0
@@ -65,4 +78,4 @@ def antireloj(n, o, d, a):
 
 
 
-print(ej4(7))
+print(ej5(f, df, 16))
