@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9f3bebcc-4c03-4a81-b0a1-dbc618582014" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/hanoivariante.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/hanoivariante.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/insertarlistaordenada.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/insertarlistaordenada.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/insertsort.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/insertsort.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/newton.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/newton.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,10 +31,9 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="RunManager" selected="Python.newton">
+  <component name="RunManager" selected="Python.insertsort">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="Recursividad1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -53,28 +48,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="hanoivariante" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Recursividad1" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="$PROJECT_DIR$/../venv/bin/python" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/hanoivariante.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -176,14 +149,12 @@
       <item itemvalue="Python.newton" />
       <item itemvalue="Python.insertarlistaordenada" />
       <item itemvalue="Python.insertsort" />
-      <item itemvalue="Python.hanoivariante" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.newton" />
-        <item itemvalue="Python.hanoivariante" />
         <item itemvalue="Python.insertsort" />
         <item itemvalue="Python.insertarlistaordenada" />
+        <item itemvalue="Python.newton" />
         <item itemvalue="Python.recursividad1" />
       </list>
     </recent_temporary>
@@ -203,14 +174,8 @@
       <workItem from="1583763454045" duration="3983000" />
       <workItem from="1584537358780" duration="6834000" />
       <workItem from="1584875946713" duration="6726000" />
-      <workItem from="1584964283662" duration="8271000" />
-      <workItem from="1585054106764" duration="4000" />
-      <workItem from="1585399963201" duration="1232000" />
-      <workItem from="1585498455038" duration="2000" />
-      <workItem from="1585681434300" duration="15000" />
-      <workItem from="1585682833695" duration="2000" />
-      <workItem from="1585738934217" duration="879000" />
-      <workItem from="1585741798082" duration="1571000" />
+      <workItem from="1586104296980" duration="5000" />
+      <workItem from="1586603132686" duration="18000" />
     </task>
     <task id="LOCAL-00001" summary="newton">
       <created>1584543409918</created>
@@ -226,14 +191,7 @@
       <option name="project" value="LOCAL" />
       <updated>1584543541438</updated>
     </task>
-    <task id="LOCAL-00003" summary="hanoi">
-      <created>1584979516652</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1584979516652</updated>
-    </task>
-    <option name="localTasksCounter" value="4" />
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -241,8 +199,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="newton" />
-    <MESSAGE value="hanoi" />
-    <option name="LAST_COMMIT_MESSAGE" value="hanoi" />
+    <option name="LAST_COMMIT_MESSAGE" value="newton" />
   </component>
   <component name="WindowStateProjectService">
     <state x="563" y="138" width="1084" height="731" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584537430504">
@@ -253,26 +210,30 @@
       <screen x="0" y="30" width="1920" height="990" />
     </state>
     <state x="1154" y="134" width="552" height="785" key="#recursividad1/0.30.1920.990@0.30.1920.990" timestamp="1584537374032" />
-    <state x="570" y="35" width="770" height="983" key="CommitChangelistDialog2" timestamp="1584979516544">
+    <state x="570" y="35" width="770" height="983" key="CommitChangelistDialog2" timestamp="1584962911731">
       <screen x="0" y="30" width="1920" height="990" />
     </state>
-    <state x="570" y="35" width="770" height="983" key="CommitChangelistDialog2/0.30.1920.990@0.30.1920.990" timestamp="1584979516544" />
-    <state width="1878" height="251" key="GridCell.Tab.0.bottom" timestamp="1585401194302">
+    <state x="570" y="35" width="770" height="983" key="CommitChangelistDialog2/0.30.1920.990@0.30.1920.990" timestamp="1584962911731" />
+    <state x="743" y="283" width="424" height="487" key="FileChooserDialogImpl" timestamp="1586603147942">
       <screen x="0" y="30" width="1920" height="990" />
     </state>
-    <state width="1878" height="251" key="GridCell.Tab.0.bottom/0.30.1920.990@0.30.1920.990" timestamp="1585401194302" />
-    <state width="1878" height="251" key="GridCell.Tab.0.center" timestamp="1585401194302">
+    <state x="743" y="283" width="424" height="487" key="FileChooserDialogImpl/0.30.1920.990@0.30.1920.990" timestamp="1586603147942" />
+    <state width="912" height="231" key="GridCell.Tab.0.bottom" timestamp="1584897522816">
       <screen x="0" y="30" width="1920" height="990" />
     </state>
-    <state width="1878" height="251" key="GridCell.Tab.0.center/0.30.1920.990@0.30.1920.990" timestamp="1585401194302" />
-    <state width="1878" height="251" key="GridCell.Tab.0.left" timestamp="1585401194302">
+    <state width="912" height="231" key="GridCell.Tab.0.bottom/0.30.1920.990@0.30.1920.990" timestamp="1584897522816" />
+    <state width="912" height="231" key="GridCell.Tab.0.center" timestamp="1584897522816">
       <screen x="0" y="30" width="1920" height="990" />
     </state>
-    <state width="1878" height="251" key="GridCell.Tab.0.left/0.30.1920.990@0.30.1920.990" timestamp="1585401194302" />
-    <state width="1878" height="251" key="GridCell.Tab.0.right" timestamp="1585401194302">
+    <state width="912" height="231" key="GridCell.Tab.0.center/0.30.1920.990@0.30.1920.990" timestamp="1584897522816" />
+    <state width="912" height="231" key="GridCell.Tab.0.left" timestamp="1584897522815">
       <screen x="0" y="30" width="1920" height="990" />
     </state>
-    <state width="1878" height="251" key="GridCell.Tab.0.right/0.30.1920.990@0.30.1920.990" timestamp="1585401194302" />
+    <state width="912" height="231" key="GridCell.Tab.0.left/0.30.1920.990@0.30.1920.990" timestamp="1584897522815" />
+    <state width="912" height="231" key="GridCell.Tab.0.right" timestamp="1584897522816">
+      <screen x="0" y="30" width="1920" height="990" />
+    </state>
+    <state width="912" height="231" key="GridCell.Tab.0.right/0.30.1920.990@0.30.1920.990" timestamp="1584897522816" />
     <state width="1876" height="293" key="GridCell.Tab.1.bottom" timestamp="1584543502677">
       <screen x="0" y="30" width="1920" height="990" />
     </state>
@@ -293,18 +254,14 @@
       <screen x="0" y="30" width="1920" height="990" />
     </state>
     <state x="1176" y="165" width="518" height="723" key="RollbackChangesDialog/0.30.1920.990@0.30.1920.990" timestamp="1584895072143" />
-    <state x="943" y="160" width="977" height="733" key="SettingsEditor" timestamp="1584965294716">
+    <state x="555" y="257" width="800" height="539" key="Vcs.Push.Dialog.v2" timestamp="1584962914442">
       <screen x="0" y="30" width="1920" height="990" />
     </state>
-    <state x="943" y="160" width="977" height="733" key="SettingsEditor/0.30.1920.990@0.30.1920.990" timestamp="1584965294716" />
-    <state x="555" y="257" width="800" height="539" key="Vcs.Push.Dialog.v2" timestamp="1584979518625">
+    <state x="555" y="257" width="800" height="539" key="Vcs.Push.Dialog.v2/0.30.1920.990@0.30.1920.990" timestamp="1584962914442" />
+    <state x="606" y="352" key="com.intellij.ide.util.TipDialog" timestamp="1586603133619">
       <screen x="0" y="30" width="1920" height="990" />
     </state>
-    <state x="555" y="257" width="800" height="539" key="Vcs.Push.Dialog.v2/0.30.1920.990@0.30.1920.990" timestamp="1584979518625" />
-    <state x="606" y="352" key="com.intellij.ide.util.TipDialog" timestamp="1584962850581">
-      <screen x="0" y="30" width="1920" height="990" />
-    </state>
-    <state x="606" y="352" key="com.intellij.ide.util.TipDialog/0.30.1920.990@0.30.1920.990" timestamp="1584962850581" />
+    <state x="606" y="352" key="com.intellij.ide.util.TipDialog/0.30.1920.990@0.30.1920.990" timestamp="1586603133619" />
     <state x="763" y="440" width="484" height="173" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584962867513">
       <screen x="0" y="30" width="1920" height="990" />
     </state>
@@ -319,11 +276,10 @@
     <state x="1103" y="246" width="672" height="678" key="search.everywhere.popup/0.30.1920.990@0.30.1920.990" timestamp="1583342434513" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Recursividad1$hanoivariante.coverage" NAME="hanoivariante Coverage Results" MODIFIED="1584979379904" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv" />
     <SUITE FILE_PATH="coverage/Recursividad1$ej1.coverage" NAME="recursividad1 Coverage Results" MODIFIED="1583176773709" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv" />
-    <SUITE FILE_PATH="coverage/Recursividad1$insertsort.coverage" NAME="insertsort Coverage Results" MODIFIED="1584969543652" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv" />
+    <SUITE FILE_PATH="coverage/Recursividad1$insertsort.coverage" NAME="insertsort Coverage Results" MODIFIED="1584897522807" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv" />
     <SUITE FILE_PATH="coverage/Recursividad1$recursividad1.coverage" NAME="recursividad1 Coverage Results" MODIFIED="1584542960050" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv" />
-    <SUITE FILE_PATH="coverage/Recursividad1$newton.coverage" NAME="newton Coverage Results" MODIFIED="1585400560327" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv" />
+    <SUITE FILE_PATH="coverage/Recursividad1$newton.coverage" NAME="newton Coverage Results" MODIFIED="1584893964083" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv" />
     <SUITE FILE_PATH="coverage/Recursividad1$insertarlistaordenada.coverage" NAME="insertarlistaordenada Coverage Results" MODIFIED="1584897026302" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv" />
   </component>
 </project>

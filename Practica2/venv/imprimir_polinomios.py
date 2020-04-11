@@ -1,5 +1,5 @@
-def imprimir_polinomio(lista):
-    if lista == [0]:
+def imprimir_polinomio(lista, grado):
+    if lista == [0] and grado == 0:
         print(" + 0")
     elif len(lista) > 0:
         n = len(lista) - 1
@@ -13,7 +13,7 @@ def imprimir_polinomio(lista):
                 print(" + ", lista[n], sep="")
             else:
                 print(" + ", lista[n], "x^", n, end="", sep="")
-        imprimir_polinomio(lista[0:n])
+        imprimir_polinomio(lista[0:n], grado)
 
 
 
@@ -24,4 +24,4 @@ for i in range(grado + 1):
     n = int(nums.split(" ")[i])
     lista.append(n)
 
-imprimir_polinomio(lista)
+imprimir_polinomio(lista, grado)
