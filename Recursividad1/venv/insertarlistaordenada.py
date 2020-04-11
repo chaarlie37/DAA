@@ -6,12 +6,9 @@ def f(a, x):
         return a + [x]
     else:
         if a[0] <= x:
-            lista = [a[0]]
-            length = len(a)
-            return lista + f(a[1:length], x)
+            return [a[0]] + f(a[1:len(a)], x)
         else:
-            lista = [x]
-            return lista + a
+            return [x] + a
 
 
 n = int(input())
@@ -26,3 +23,24 @@ for i in range(n):
     print(lista[i], end=' ')
 print(lista[n])
 
+
+
+def auxinsert(x,a,n):
+    if a[0]>x:
+        a.insert(0,x)
+        return a
+    elif a[n] < x:
+        a.insert(n+1, x)
+        return a
+    else:
+        n= n-1
+        return auxinsert(x,a,n-1)
+
+def insertelem(x,a):
+    n = len(a)
+    if n==0:
+        a.append(x)
+        return a
+    else:
+        n = n-1
+        return auxinsert(x,a,n)

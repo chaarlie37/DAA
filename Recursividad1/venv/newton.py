@@ -10,20 +10,12 @@ def next_x(f, df, x_n, a):
     return x_n - (f(x_n, a) / df(x_n))
 
 
-def newton_rec(x, a):
-    if f(x, a) <= 10**-6:
+def newton(x, a):
+    if f(x, a) <= 10 ** -6:
         return x
     else:
-        return newton_rec(next_x(f, df, x, a), a)
-
-
-def newton(a):
-    return newton_rec(a, a)
+        return newton(next_x(f, df, x, a), a)
 
 
 a = float(input())
-
-res = newton(a)
-
-
-print("{0:.4f}".format(res))
+print('%.4f' % newton(a, a))

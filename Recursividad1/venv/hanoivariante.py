@@ -5,9 +5,9 @@ def hanoi(origen, aux, destino, discos):
     else:
         hanoi(origen, aux, destino, discos - 1)
         imprimir(discos, origen, aux)
-        hanoi(destino, aux, origen, discos-1)
+        hanoi(destino, aux, origen, discos - 1)
         imprimir(discos, aux, destino)
-        hanoi(origen, aux, destino, discos-1)
+        hanoi(origen, aux, destino, discos - 1)
 
 
 def imprimir(disco, origen, destino):
