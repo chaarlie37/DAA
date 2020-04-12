@@ -42,6 +42,41 @@ def resta_polinomios(p, q):
         return resultado
 
 
+def multiplicar_xm(p, m):
+    aux = p.copy()
+    for i in range(m):
+        aux = [0] + aux
+    return aux
+
+
+def multiplicar_polinomios(p, q):
+    if p == [0] or q == [0]:
+        return [0]
+    if len(p) == 0:
+        return q
+    elif len(q) == 0:
+        return p
+    elif len(p) == 1:
+        aux = q.copy()
+        for i in range(0, len(q)):
+            aux[i] = aux[i] * p[0]
+        return aux
+    elif len(q) == 1:
+        aux = p.copy()
+        for i in range(0, len(p)):
+            aux[i] = aux[i] * q[0]
+        return aux
+    m = min(len(p) // 2, len(q) // 2)
+    pa = p[m:len(p)]
+    pb = p[0:m]
+    qa = q[m:len(q)]
+    qb = q[0:m]
+    pa_qa_x2m = multiplicar_xm(multiplicar_polinomios(pa, qa), 2*m)
+    corchetes = multiplicar_xm(resta_polinomios(resta_polinomios(multiplicar_polinomios(suma_polinomios(pa, pb), suma_polinomios(qa, qb)), multiplicar_polinomios(pa, qa)), multiplicar_polinomios(pb, qb)), m)
+    pb_qb = multiplicar_polinomios(pb, qb)
+    return suma_polinomios(suma_polinomios(pa_qa_x2m, corchetes), pb_qb)
+
+
 grado1 = int(input())
 nums1 = input()
 lista1 = []
@@ -56,13 +91,5 @@ for i in range(grado2 + 1):
     n = int(nums2.split(" ")[i])
     lista2.append(n)
 
-grado = grado1
-if grado2 > grado1:
-    grado = grado2
-
-
-imprimir_polinomio(suma_polinomios(lista1, lista2), grado)
-imprimir_polinomio(resta_polinomios(lista1, lista2), grado)
-
-
-
+polinomio = multiplicar_polinomios(lista1, lista2)
+imprimir_polinomio(polinomio, len(polinomio)-1)
