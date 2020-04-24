@@ -24,8 +24,7 @@ def suma_polinomios(p, q):
     else:
         resultado = []
         resultado.append(p[0] + q[0])
-        resultado = resultado + suma_polinomios(p[1:len(p)], q[1:len(q)])
-        return resultado
+        return resultado + suma_polinomios(p[1:len(p)], q[1:len(q)])
 
 
 def resta_polinomios(p, q):
@@ -93,3 +92,4 @@ for i in range(grado2 + 1):
 
 polinomio = multiplicar_polinomios(lista1, lista2)
 imprimir_polinomio(polinomio, len(polinomio)-1)
+
