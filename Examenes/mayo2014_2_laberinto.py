@@ -29,7 +29,7 @@ def laberinto(n, tablero, pasos_minimos, camino_parcial, camino_optimo, p, pasos
                     nuevo_p[0] -= 1
 
                 if nuevo_p != p and (nuevo_p not in camino_parcial) and (
-                        distancia_entre_puntos(nuevo_p, meta) < distancia_entre_puntos(p, meta) or pasos_acumulados + 1 <=
+                        pasos_acumulados + 1 <=
                         pasos_minimos[nuevo_p[0]][nuevo_p[1]]):
                     laberinto(n, tablero, pasos_minimos, camino_parcial[:pasos_acumulados + 1], camino_optimo, nuevo_p,
                               pasos_acumulados + 1,
@@ -43,9 +43,6 @@ def laberinto(n, tablero, pasos_minimos, camino_parcial, camino_optimo, p, pasos
             tablero[k[0]][k[1]] = "*"
         imprimir_matriz(tablero)
 
-
-def distancia_entre_puntos(p1, p2):
-    return math.sqrt(pow(abs(p1[0] - p2[0]), 2) + pow(abs(p1[1] - p2[1]), 2))
 
 
 def imprimir_matriz(m):
